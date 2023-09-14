@@ -8,30 +8,45 @@
     <style>
         header{
             background-color: lemonchiffon;
-            color: rgb(161, 17, 120);
+            color: rgb(17, 17, 17);
+        }
+        .name,.contact,.email{
+            margin-right: 180px;
+        }
+        .header-icons{
+            margin-right: 30px;
+        }
+        .home,.tech,.project,.education,.other,personal{
+            margin-right: 80px;
+        }
+       
+        
+        .google,.instagram,.facebook,.linkdein{ 
+            margin-right: 10px;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/favicon.png.svg" type="image/x-icon">
+    
     
 </head>
 
 <body>
     <!-- Header Section -->
     <header>
-        <i class="fa fa-user" aria-hidden="true"></i>&nbsp;<span>Rupali More</span> &nbsp;&nbsp; &nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"> &nbsp;</i><span>+91 8964 25 3647</span>&nbsp;&nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;<span>rupalimore019@gmail.com</span>
+        <i class="header-icons fa fa-user" aria-hidden="true"></i><span class="name">Rupali More</span> 
+        <i class="header-icons fa fa-phone-square" aria-hidden="true"></i><span class="contact">+91 8964 25 3647</span>
+        <i class="header-icons fa fa-envelope" aria-hidden="true"></i> <span class="email">rupalimore019@gmail.com</span>
     </header>
     <br />
     <!-- Navigation section  -->
     <nav>
-        <a href="home.html" target="MyFrame"> HOME</a> &nbsp;&nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="MyFrame">TECH STACK</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="ProjectDetails.html" target="MyFrame">PROJECT</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="education.html" target="MyFrame">EDUCATION</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="other.html" target="MyFrame">OTHER</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="personalDetails.html" target="MyFrame">PERSONAL </a> &nbsp;&nbsp;&nbsp; &nbsp;
+        <a class="home" href="home.html" target="MyFrame"> HOME</a> 
+        <a class="tech" href="techStack.html" target="MyFrame">TECH STACK</a> 
+        <a class="project"ProjectDetails.html" target="MyFrame">PROJECT</a> 
+        <a class="education"education.html" target="MyFrame">EDUCATION</a> 
+        <a class="other" href="other.html" target="MyFrame">OTHER</a>
+        <a class="personal" href="personalDetails.html" target="MyFrame">PERSONAL </a>
     </nav>
     <br />
 
@@ -39,18 +54,23 @@
     <iframe src="home.html" width="900px" height="500px"  name="MyFrame"></iframe>
 
 
+
+    
+
     
     <!-- Footer section  -->
-    <footer>
-        <label for=""> <strong> Follow me </strong> </label> &nbsp; &nbsp; &nbsp;&nbsp;
-        <a href="https://in.linkedin.com/">
+    <br>
+    <br>
+    <footer >
+        <label class="follow" for=""> <strong> Follow me </strong> </label> 
+        <a class="linkdein" href="https://in.linkedin.com/">
             <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
-        </a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.com/">
-            <i class="fa fa-2x fa-google" aria-hidden="true"></i></a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/">
-            <i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+        </a> 
+        <a class="google"https://www.google.com/">
+            <i class="fa fa-2x fa-google" aria-hidden="true"></i></a>
+        <a class="instagram" href="https://www.instagram.com/">
+            <i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+        <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
         </a>
     </footer>
 
